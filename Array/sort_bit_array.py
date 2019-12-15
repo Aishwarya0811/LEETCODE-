@@ -1,3 +1,6 @@
+
+## SOLUTION ==1 
+
 def sorted_array(nums):
   if nums is None:
     raise Exception('Wrong list')
@@ -16,6 +19,13 @@ def sorted_array(nums):
     results_list.append(1)
   return results_list
 
+
+
+
+
+
+ ## SOLUTION ==2 
+  
 def binary_search(lst):
   if lst is None:
     return "Aishwarya says Hi"
@@ -27,6 +37,8 @@ def binary_search(lst):
 
 
 
+
+## TEST CASES 
 
 print(sorted_array([1,0,1,0,1]))
 print(sorted_array([1,1,1]))
