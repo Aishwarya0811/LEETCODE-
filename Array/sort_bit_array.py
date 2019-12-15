@@ -48,9 +48,9 @@ print(sorted_array(None))
 
 
 
-#print(binary_search([1,0,1,0,1]))
-##print(binary_search([1,1,1]))
-#print(binary_search([0,0]))
-#print(binary_search([]))
-#print(binary_search(None))
+print(binary_search([1,0,1,0,1]))
+print(binary_search([1,1,1]))
+print(binary_search([0,0]))
+print(binary_search([]))
+print(binary_search(None))
 
