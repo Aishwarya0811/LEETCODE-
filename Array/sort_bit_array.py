@@ -9,8 +9,10 @@ def sorted_array(nums):
   for number in nums:
     if number == 0:
       frequency_dictionary[0] += 1 # frequency_dictionary[0]= frequency_dictionary[0]+1 ;  
-    else:
+    elif number ==1:
       frequency_dictionary[1] += 1 # frequency_dictionary[1] = frequency_dictionary[1]+1 ; 
+    else:
+      raise Exception('Not a bit value')
   item_value_0 = frequency_dictionary.get(0) 
   item_value_1 = frequency_dictionary.get(1)
   for i in range(0,item_value_0):
@@ -44,6 +46,7 @@ print(sorted_array([1,0,1,0,1]))
 print(sorted_array([1,1,1]))
 print(sorted_array([0,0]))
 print(sorted_array([]))
+print(sorted_array([1,2,3,4,5]))
 print(sorted_array(None))
 
 
